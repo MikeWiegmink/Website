@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.background {
+    background-color: hsla(80, 2%, 33%, 0.877);
+}
+
+.headerContainer {
+    background-color: blue;
+}
+    
