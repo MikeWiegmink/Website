@@ -1,0 +1,40 @@
+.footerContainer {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footerContainer hr {
+    width: 100%;
+    color: white;
+}
+
+.footerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: inherit
+}
+
+.footerSocials {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.footerSocials a {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.footerSocials a:hover {
+    color: #0077b5;
+    transform: translateY(-3px)
+}

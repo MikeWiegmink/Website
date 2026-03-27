@@ -36,3 +36,8 @@
     color: inherit;
     transition: 0.3s;
 }
+
+.headerNav a:hover {
+    transform: translateY(-3px);
+    color: #0077b5;
+}
