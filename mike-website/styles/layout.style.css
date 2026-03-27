@@ -1,0 +1,11 @@
+.overall {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(232, 84%, 15%);
+    color: #f0f0f0;
+    padding: 2rem;
+    min-height: 100vh;
+}
