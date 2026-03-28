@@ -114,7 +114,8 @@
 .educationTitle {
     font-weight: 700;
     color: var(--accent-color);
-    margin: 0;
+    padding-left: 10px;
+    border-left: 2px solid #22d3ee;;
 }
 
 .educationDate {

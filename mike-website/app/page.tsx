@@ -32,7 +32,6 @@ export default function Home() {
         </section>
         <section className="skillsContainer">
             <h2 className='skillsTitle'>Skills & Proficiencies</h2>
-            
             <p className="skillCategory">Languages</p>
             <div className="skillsGrid">
                 <div className="skillBadge"><span>TypeScript</span></div>
@@ -46,7 +45,8 @@ export default function Home() {
 
             <p className="skillCategory">Frameworks & Tools</p>
             <div className="skillsGrid">
-                <div className="skillBadge"><span>React / Next.js</span></div>
+                <div className="skillBadge"><span>React</span></div>
+                <div className="skillBadge"><span>Next.js</span></div>
                 <div className="skillBadge"><span>React Native</span></div>
                 <div className="skillBadge"><span>Node.js</span></div>
                 <div className="skillBadge"><span>Git / GitHub</span></div>
