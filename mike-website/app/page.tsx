@@ -22,6 +22,9 @@ export default function Home() {
             <section className="introTextContainer">
                 <h1>Hello! I'm Mike.</h1>
                 <p>I am a {getAge()} year old software developer from the Netherlands!</p>
+                <h3>About me!</h3>
+                <p>I discovered my passion for coding when I was 16 years old. It all started with basic programs in Visual Basic and simple websites during a school elective. Since then, I’ve never stopped learning, and I now spend most of my time building projects with JavaScript/TypeScript and Python.</p>
+
             </section>
             <section className='introImageContainer'>
                 <img src={"Mike.jpeg"} className='imageMike'/>
@@ -32,6 +35,17 @@ export default function Home() {
             <p>Hier komen projecten</p>
         </section>
         <hr className='divider'/>
+        <section className='educationContainer'>
+            <h1 className='educationHeader'>My Education</h1>
+            <section className='educationRow'>
+                <p className="educationTitle">BSc. Informatica</p>
+                <p>Universiteit van Amsterdam 2024 - 2027</p>
+            </section>
+            <section className='educationRow'>
+                <p className="educationTitle">VWO</p>
+                <p>Zuyderzee Lyceum 2017 - 2024</p>
+            </section>
+        </section>
        </>
     );
 

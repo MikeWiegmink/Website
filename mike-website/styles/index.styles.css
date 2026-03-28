@@ -12,14 +12,11 @@
     justify-content: center;
     flex: 1 1 300px;
     min-width: 300px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .introTextContainer h1 {
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: xx-large;
-}
-.introTextContainer p {
-    font-family: 'Courier New', Courier, monospace;
 }
 .introImageContainer {
     display: flex;
@@ -34,4 +31,19 @@
 .divider {
     width: 100%;
     color:rgba(250, 235, 215, 0.264);
+}
+.educationContainer {
+    font-family: 'Courier New', Courier, monospace;
+}
+.educationRow {
+    padding-left: 40;
+    padding-right: 40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.educationTitle {
+    font-size: larger;
+    font-weight: bold;
 }
