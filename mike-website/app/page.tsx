@@ -30,6 +30,28 @@ export default function Home() {
                 <img src={"Mike.jpeg"} className='imageMike'/>
             </section>
         </section>
+        <section className="skillsContainer">
+            <h2 className='skillsTitle'>Skills & Proficiencies</h2>
+            
+            <p className="skillCategory">Languages</p>
+            <div className="skillsGrid">
+                <div className="skillBadge"><span>TypeScript</span></div>
+                <div className="skillBadge"><span>JavaScript</span></div>
+                <div className="skillBadge"><span>Python</span></div>
+                <div className="skillBadge"><span>C</span></div>
+                <div className="skillBadge"><span>SQL</span></div>
+                <div className="skillBadge"><span>HTML</span></div>
+                <div className="skillBadge"><span>CSS</span></div>
+            </div>
+
+            <p className="skillCategory">Frameworks & Tools</p>
+            <div className="skillsGrid">
+                <div className="skillBadge"><span>React / Next.js</span></div>
+                <div className="skillBadge"><span>React Native</span></div>
+                <div className="skillBadge"><span>Node.js</span></div>
+                <div className="skillBadge"><span>Git / GitHub</span></div>
+            </div>
+        </section>
         <hr className='divider'/>
         <section className="projectsContainer">
             <p>Hier komen projecten</p>

@@ -2,21 +2,20 @@
     width: 100%;
     max-width: 1200px;
     min-height: 80px;
-    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     flex-wrap: wrap;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Inter', system-ui, sans-serif;
 }
 
 .headerTitle {
     font-size: 1.5rem;
     font-family: inherit;
     font-weight: bold;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 
 .headerTitle a {

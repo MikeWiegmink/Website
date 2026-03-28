@@ -3,8 +3,9 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background-color: hsl(232, 84%, 15%);
-    color: #f0f0f0;
+    background-color: #0f172a; 
+    color: #f1f5f9;
     padding: 2rem;
     min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
