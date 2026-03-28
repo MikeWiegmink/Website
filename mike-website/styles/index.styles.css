@@ -1,7 +1,37 @@
-@import "tailwindcss";
-
-.background {
-    background-color: hsla(80, 2%, 33%, 0.877);
+.introContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
 }
-
-
+.introTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 300px;
+    min-width: 300px;
+}
+.introTextContainer h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.introTextContainer p {
+    font-family: 'Courier New', Courier, monospace;
+}
+.introImageContainer {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 400px;
+}
+.imageMike {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.divider {
+    width: 100%;
+    color:rgba(250, 235, 215, 0.264);
+}
