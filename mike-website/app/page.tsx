@@ -49,21 +49,56 @@ export default function Home() {
                 <div className="skillBadge"><span>Next.js</span></div>
                 <div className="skillBadge"><span>React Native</span></div>
                 <div className="skillBadge"><span>Node.js</span></div>
+                <div className="skillBadge"><span>Firebase</span></div>
                 <div className="skillBadge"><span>Git / GitHub</span></div>
             </div>
         </section>
         <hr className='divider'/>
-        <section className="projectsContainer">
-            <p>Hier komen projecten</p>
+        <section className="itemizeContainer">
+            <h1 className='itemizeHeader'>My Projects</h1>
+            <section className="projectContainer">
+                <section className='projectRow'>
+                    <section className="itemizeLeft">
+                        <p className="projectTitle">Mobile E-commerce Platform</p>
+                        <p className="projectDesc">
+                            A high-performance mobile e-commerce platform built with React Native and Firebase,
+                            featuring a seamless shopping experience with real-time data synchronization and secure payment integration.
+                        </p>
+                    </section>
+                    <p>Dec 2025 - now</p>
+                </section>
+                <section className="toolsRow">
+                    <div className="toolsGrid">
+                        <div className="toolsBadge"><span>JavaScript</span></div>
+                        <div className="toolsBadge"><span>React Native</span></div>
+                        <div className="toolsBadge"><span>Firebase</span></div>
+                        <div className="toolsBadge"><span>Node.js</span></div>
+                        <div className="toolsBadge"><span>SQL</span></div>
+                        <div className="toolsBadge"><span>Git / GitHub</span></div>
+                    </div>
+                </section>
+            </section>
         </section>
         <hr className='divider'/>
-        <section className='educationContainer'>
-            <h1 className='educationHeader'>My Education</h1>
-            <section className='educationRow'>
+        <section className='itemizeContainer'>
+            <h1 className='itemizeHeader'>My Experience</h1>
+            <section className='itemizeRow'>
+                <p className="experienceTitle">Freelance Software Engineer</p>
+                <p>Freelance, Dec 2025 - now</p>
+            </section>
+            <section className='itemizeRow'>
+                <p className="experienceTitle">Store Employee</p>
+                <p>Poiesz Supermarkten, Jul 2020 - April 2024 - Dekamarkt, Jan 2025 - now</p>
+            </section>
+        </section>
+        <hr className='divider'/>
+        <section className='itemizeContainer'>
+            <h1 className='itemizeHeader'>My Education</h1>
+            <section className='itemizeRow'>
                 <p className="educationTitle">BSc. Informatica</p>
                 <p>Universiteit van Amsterdam 2024 - 2027</p>
             </section>
-            <section className='educationRow'>
+            <section className='itemizeRow'>
                 <p className="educationTitle">VWO</p>
                 <p>Zuyderzee Lyceum 2017 - 2024</p>
             </section>

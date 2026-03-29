@@ -91,12 +91,12 @@
     letter-spacing: 0.1em;
 }
 
-.educationHeader {
+.itemizeHeader {
     font-size: 2rem;
     margin-bottom: 30px;
 }
 
-.educationRow {
+.itemizeRow {
     background: var(--card-bg);
     padding: 20px 30px;
     border-radius: 16px;
@@ -105,10 +105,84 @@
     align-items: center;
     margin-bottom: 15px;
     transition: background 0.2s ease;
+    flex-wrap: wrap;
 }
 
-.educationRow:hover {
+.itemizeRow:hover {
     background: #2d3748;
+}
+
+.itemizeLeft {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.projectContainer {
+    background: var(--card-bg);
+    padding: 20px 30px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+    transition: background 0.2s ease;
+    flex-wrap: wrap;
+}
+
+.projectContainer:hover {
+    background: #2d3748;
+}
+
+.projectRow {
+    background: var(--card-bg);
+    padding: 20px 30px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.projectTitle {
+    font-weight: 700;
+    color: var(--accent-color);
+    padding-left: 10px;
+    border-left: 2px solid #52ee22;;
+}
+
+.projectDesc {
+    margin-left: 5%;
+    color:#94a3b8;
+}
+
+.toolsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 10%));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.toolsBadge {
+    background: rgba(34, 211, 238, 0.05);
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.toolsBadge span {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #22d3ee;
+}
+
+.experienceTitle {
+    font-weight: 700;
+    color: var(--accent-color);
+    padding-left: 10px;
+    border-left: 2px solid #ee2222;;
 }
 
 .educationTitle {
