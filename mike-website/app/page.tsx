@@ -1,4 +1,5 @@
-import '@/styles/index.styles.css'
+import '@/styles/index.styles.css';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -56,28 +57,30 @@ export default function Home() {
         <hr className='divider'/>
         <section className="itemizeContainer">
             <h1 className='itemizeHeader'>My Projects</h1>
-            <section className="projectContainer">
-                <section className='projectRow'>
-                    <section className="itemizeLeft">
-                        <p className="projectTitle">Mobile E-commerce Platform</p>
-                        <p className="projectDesc">
-                            A high-performance mobile e-commerce platform built with React Native and Firebase,
-                            featuring a seamless shopping experience with real-time data synchronization and secure payment integration.
-                        </p>
+            <Link href="/projects/MobileEcommmercePlatform">
+                <section className="projectContainer">
+                    <section className='projectRow'>
+                        <section className="itemizeLeft">
+                            <p className="projectTitle">Mobile E-commerce Platform</p>
+                            <p className="projectDesc">
+                                A high-performance mobile e-commerce platform built with React Native and Firebase,
+                                featuring a seamless shopping experience with real-time data synchronization and secure payment integration.
+                            </p>
+                        </section>
+                        <p>Dec 2025 - now</p>
                     </section>
-                    <p>Dec 2025 - now</p>
+                    <section className="toolsRow">
+                        <div className="toolsGrid">
+                            <div className="toolsBadge"><span>JavaScript</span></div>
+                            <div className="toolsBadge"><span>React Native</span></div>
+                            <div className="toolsBadge"><span>Firebase</span></div>
+                            <div className="toolsBadge"><span>Node.js</span></div>
+                            <div className="toolsBadge"><span>SQL</span></div>
+                            <div className="toolsBadge"><span>Git / GitHub</span></div>
+                        </div>
+                    </section>
                 </section>
-                <section className="toolsRow">
-                    <div className="toolsGrid">
-                        <div className="toolsBadge"><span>JavaScript</span></div>
-                        <div className="toolsBadge"><span>React Native</span></div>
-                        <div className="toolsBadge"><span>Firebase</span></div>
-                        <div className="toolsBadge"><span>Node.js</span></div>
-                        <div className="toolsBadge"><span>SQL</span></div>
-                        <div className="toolsBadge"><span>Git / GitHub</span></div>
-                    </div>
-                </section>
-            </section>
+            </Link>
         </section>
         <hr className='divider'/>
         <section className='itemizeContainer'>

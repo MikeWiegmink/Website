@@ -118,6 +118,11 @@
     max-width: 70%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .projectContainer {
     background: var(--card-bg);
     padding: 20px 30px;
