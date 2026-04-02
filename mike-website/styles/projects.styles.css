@@ -1,0 +1,63 @@
+.projectContainer {
+    min-height: 100vh;
+}
+
+.divider {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.titleContainer h1 {
+    font-size: xx-large;
+}
+
+.titleContainer p {
+    color: #94a3b8;
+    letter-spacing: 0.1em;
+}
+
+.descriptionContainer {
+    padding: 10;
+}
+
+.descriptionText {
+    font-size: 20px;
+}
+
+.categoryTitle{
+    font-size: 1rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.skillBadge {
+    background: rgba(34, 211, 238, 0.05);
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skillBadge:hover {
+    background: rgba(34, 211, 238, 0.15);
+    border-color: #22d3ee;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skillBadge span {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #22d3ee;
+}
