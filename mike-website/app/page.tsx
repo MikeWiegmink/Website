@@ -71,7 +71,6 @@ export default function Home() {
                     </section>
                     <section className="toolsRow">
                         <div className="toolsGrid">
-                            <div className="toolsBadge"><span>JavaScript</span></div>
                             <div className="toolsBadge"><span>React Native</span></div>
                             <div className="toolsBadge"><span>Firebase</span></div>
                             <div className="toolsBadge"><span>Node.js</span></div>

@@ -10,6 +10,7 @@ export default function Header() {
             </section>
             <nav className="headerNav">
                 <a href="/">Home</a>
+                <a href='/projects'>Projects</a>
                 <a href="/contact">Contact</a>
             </nav>
         </header>

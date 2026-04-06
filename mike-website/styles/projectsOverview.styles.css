@@ -1,0 +1,32 @@
+.titleContainer h1 {
+    font-size: xx-large;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projectsRow {
+    background: var(--card-bg);
+    padding: 20px 30px;
+    border-radius: 16px;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.projectsCard  {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10;
+    margin: 1vh;
+    transition: all 0.2s ease;
+}
+
+.projectsCard:hover  {
+    transform: translateY(-5px);
+    background: #2d3748;
+}

@@ -5,9 +5,8 @@ export default async function ProjectDetails({ params }: { params: Promise<{ slu
     const { slug } = await params;
     const project = data.filter((item) => item.slug == slug)[0]
 
-
     return (
-        <section className="projectContainer">
+        <section className="contentContainer">
             <section className="titleContainer">
                 <h1>{project.title}</h1>
                 <p>Duration: {project.duration}</p>
@@ -18,7 +17,7 @@ export default async function ProjectDetails({ params }: { params: Promise<{ slu
                 <section className="skillsGrid">
                     {project.stack?.map((item) => {
                         return(
-                            <section className="skillBadge">
+                            <section key={item} className="skillBadge">
                                 <span>{item}</span>
                             </section>
                         )
